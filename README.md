@@ -19,7 +19,7 @@ Teknik direktörün şartı net: **60 saniyede 10 topu bul, sahaya getir ve kale
 - **Windows:** teslim edilen `Son Antrenman.exe`
 
 ## Proje yapısı
-- `Assets/Karakter/` — karakter, `Assets/Animasyonlar/` — animasyonlar, `Assets/Sesler/` — sesler ve müzik, `Assets/Modeller/` — modeller, materyaller ve dokular, `Assets/Arayuz/` — menü görselleri
+- `Assets/Karakter/` — karakter, `Assets/Animasyonlar/` — animasyonlar, `Assets/Sesler/` — sesler ve müzik, `Assets/Modeller/` — tüm 3D modeller tek Blender dosyasında (`Modeller.blend`), `Assets/ModelDosyalari/` — oyunun kullandığı FBX modeller, materyaller ve dokular, `Assets/Arayuz/` — menü görselleri
 - `Assets/Sahneler/Oyun.unity` — oyun sahnesi
 - `Assets/Kodlar/` — `PlayerMovement`, `CameraFollow`, `Hole`, `GameManager`, `BallPointer`, `ShootBall`, `RandomCubeMovement` (ders hocasının kodu)
 - Kullanılan hazır varlıklar ve lisansları: [KAYNAKLAR.txt](KAYNAKLAR.txt)

@@ -5,7 +5,8 @@ Assets klasoru:
   Karakter/      karakter (Dribble.fbx: model + yurume/dribble animasyonu)
   Animasyonlar/  Idle.fbx + PlayerAnimator.controller
   Sesler/        gol sesi, buton sesi, arka plan muzigi
-  Modeller/      modeller + materyalleri, dokulari, zemin ve gol efekti
+  Modeller/      Modeller.blend: oyundaki tum 3D modeller tek Blender dosyasinda
+  ModelDosyalari/ oyunun kullandigi FBX modeller, materyaller, dokular, zemin ve gol efekti
   Arayuz/        menu gorselleri ve yazi tipi
   Sahneler/      Oyun.unity
   Kodlar/        oyun kodlari
@@ -18,7 +19,7 @@ Karakter ve animasyonlar
 Binalar
 - Kenney - City Kit (Suburban) 2.0, lisans: CC0
   https://kenney.nl/assets/city-kit-suburban
-  Projede: Assets/Modeller/building-type-*.fbx  (lisans: Assets/Modeller/License_Kenney.txt)
+  Projede: Assets/ModelDosyalari/building-type-*.fbx  (lisans: Assets/ModelDosyalari/License_Kenney.txt)
 
 Arayuz (menu, butonlar, paneller, yazi tipi, tik sesi, ok)
 - Kenney - UI Pack, lisans: CC0
@@ -43,20 +44,20 @@ Arka plan muzigi
   Projede: Assets/Sesler/SwingingSweet_hernandack.ogg
 
 Gol efekti (konfeti)
-- Unity'nin kendi Particle System bileseniyle yapildi: Assets/Modeller/GoalEffect.prefab
+- Unity'nin kendi Particle System bileseniyle yapildi: Assets/ModelDosyalari/GoalEffect.prefab
 
 Zemin dokulari
 - ambientCG - Grass001, Asphalt031, PavingStones138 (1K JPG), lisans: CC0
   https://ambientcg.com
-  Projede: Assets/Modeller/ (Grass001_*, Asphalt031_*, PavingStones138_*)
+  Projede: Assets/ModelDosyalari/ (Grass001_*, Asphalt031_*, PavingStones138_*)
 
 Kendi yaptiklarim (Blender)
 - Agaclar, cali, araba, sokak lambasi, bank, cop kutusu: C:\blender proje\vize_cevre.blend
-  Projede: Assets/Modeller/ (Tree_*, Bush, Car, StreetLamp, Bench, TrashBin)
+  Projede: Assets/ModelDosyalari/ (Tree_*, Bush, Car, StreetLamp, Bench, TrashBin)
 
 Kodla uretilen (prosedurel) dokular
 - Futbol topu deseni ve kale agi dokusu: Unity'de C# kodu ile prosedurel olarak uretildi
-  Projede: Assets/Modeller/SoccerBall*.png, Assets/Modeller/Net.png, Assets/Modeller/BallSphere.asset
+  Projede: Assets/ModelDosyalari/SoccerBall*.png, Assets/ModelDosyalari/Net.png, Assets/ModelDosyalari/BallSphere.asset
 
 Kod (Assets/Kodlar/)
 - RandomCubeMovement.cs: ders hocasinin kodu (degistirilmedi)
