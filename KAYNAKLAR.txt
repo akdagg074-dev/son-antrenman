@@ -1,0 +1,63 @@
+SON ANTRENMAN - Kullanilan hazir varliklar (asset) ve kaynaklari
+================================================================
+
+Assets klasoru:
+  Karakter/      karakter (Dribble.fbx: model + yurume/dribble animasyonu)
+  Animasyonlar/  Idle.fbx + PlayerAnimator.controller
+  Sesler/        gol sesi, buton sesi, arka plan muzigi
+  Modeller/      modeller + materyalleri, dokulari, zemin ve gol efekti
+  Arayuz/        menu gorselleri ve yazi tipi
+  Sahneler/      Oyun.unity
+  Kodlar/        oyun kodlari
+
+Karakter ve animasyonlar
+- Karakter modeli: kendi modelim, Blender'da boyandi (C:\blender proje\vizeadam_renkli.blend)
+- Rig + Idle / Dribble animasyonlari: Mixamo (mixamo.com, Adobe)
+  Projede: Assets/Karakter/Dribble.fbx, Assets/Animasyonlar/Idle.fbx
+
+Binalar
+- Kenney - City Kit (Suburban) 2.0, lisans: CC0
+  https://kenney.nl/assets/city-kit-suburban
+  Projede: Assets/Modeller/building-type-*.fbx  (lisans: Assets/Modeller/License_Kenney.txt)
+
+Arayuz (menu, butonlar, paneller, yazi tipi, tik sesi, ok)
+- Kenney - UI Pack, lisans: CC0
+  https://kenney.nl/assets/ui-pack
+  Projede: Assets/Arayuz/  (lisans: Assets/Arayuz/License_Kenney_UI.txt)
+  Yazi tipi: Kenney Future (basliklar, sayac, butonlar)
+  Buton tik sesi: Assets/Sesler/ui_click-a.ogg
+  Ana menu, Nasil Oynanir ve ESC menusu de bu paketin buton/panel gorselleriyle yapildi
+
+Gol sesi
+- Kenney - Interface Sounds (confirmation_002), lisans: CC0
+  https://kenney.nl/assets/interface-sounds
+  Projede: Assets/Sesler/goal_confirmation_002.ogg  (lisans: Assets/Sesler/License_Kenney_InterfaceSounds.txt)
+
+Sut sesi
+- Kenney - Interface Sounds (drop_002), lisans: CC0
+  Projede: Assets/Sesler/kick_drop_002.ogg
+
+Arka plan muzigi
+- "Swinging Sweet" - hernandack, Short Loops Background Music Pack, lisans: CC0
+  https://opengameart.org/content/short-loops-background-music-pack
+  Projede: Assets/Sesler/SwingingSweet_hernandack.ogg
+
+Gol efekti (konfeti)
+- Unity'nin kendi Particle System bileseniyle yapildi: Assets/Modeller/GoalEffect.prefab
+
+Zemin dokulari
+- ambientCG - Grass001, Asphalt031, PavingStones138 (1K JPG), lisans: CC0
+  https://ambientcg.com
+  Projede: Assets/Modeller/ (Grass001_*, Asphalt031_*, PavingStones138_*)
+
+Kendi yaptiklarim (Blender)
+- Agaclar, cali, araba, sokak lambasi, bank, cop kutusu: C:\blender proje\vize_cevre.blend
+  Projede: Assets/Modeller/ (Tree_*, Bush, Car, StreetLamp, Bench, TrashBin)
+
+Kodla uretilen (prosedurel) dokular
+- Futbol topu deseni ve kale agi dokusu: Unity'de C# kodu ile prosedurel olarak uretildi
+  Projede: Assets/Modeller/SoccerBall*.png, Assets/Modeller/Net.png, Assets/Modeller/BallSphere.asset
+
+Kod (Assets/Kodlar/)
+- RandomCubeMovement.cs: ders hocasinin kodu (degistirilmedi)
+- PlayerMovement.cs, CameraFollow.cs, Hole.cs, GameManager.cs, BallPointer.cs, ShootBall.cs: oyun kodlari

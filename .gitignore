@@ -1,0 +1,41 @@
+# Unity tarafindan yeniden olusturulan klasorler
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build ciktilari (WebGL surumu docs/ klasorunde yayinlaniyor)
+/[Bb]uilds/
+/[Bb]uild/
+
+# IDE / sistem dosyalari
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+.DS_Store
+Thumbs.db
+
+# Crash / profiler
+sysinfo.txt
+crashlytics-buildid.txt
+*.apk
+*.aab
+*.unitypackage
